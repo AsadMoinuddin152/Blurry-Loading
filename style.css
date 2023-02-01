@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+*
+{
+    box-sizing: border-box;
+}
+
+body
+{
+    font-family: 'Ubuntu', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+}
+
+.bg
+{
+    background: url('./images/Blue_lock.jpg') no-repeat center center/cover;
+    position: absolute;
+    top: -30;
+    left: -30;
+    width: calc(80vw + 60px);
+    height: calc(90vh + 60px);
+    z-index: -1;
+    filter: blur(0px);
+}
+
+.load-text
+{
+    font-size: 60px;
+    color: #fff;
+}
